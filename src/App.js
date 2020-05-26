@@ -7,6 +7,7 @@ import {
 
 } from "react-router-dom";
 import Home from './Components/Home/Home';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/projects"></Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
           <Route path="/blog"></Route>
         </Switch>
       </Router>

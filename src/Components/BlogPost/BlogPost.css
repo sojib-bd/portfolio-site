@@ -1,0 +1,43 @@
+.postContainer {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.postContainer img {
+    width: 300px;
+
+}
+
+.blog {
+    text-align: start;
+}
+
+.blogBtn {
+    background: #252a34;   
+    padding: 10px;
+    margin: 20px;
+}
+.blogBtn a {
+    color: white
+}
+.blogBtn a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+    .postContainer {
+        display: block;
+        text-align: start;
+    }
+    .postContainer img {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .homeLink2,.homeLink {
+        position:relative;
+        margin: 20px
+    }
+}

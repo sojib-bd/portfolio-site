@@ -1,0 +1,19 @@
+.blogContainer h3 {
+    padding: 20px;
+}
+
+.blogContainer {
+    position: relative;
+}
+
+.homeLink {
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.homeLink2 {
+    position: absolute;
+    right:0;
+    bottom:0;
+}
