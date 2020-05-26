@@ -9,7 +9,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 const Banner = () => {
     return (
         <>
-            <section className="banner">
+            <section className="banner" id ="home">
                 <div className="intro-overlay"></div>
                 <div className="intro">
                     <h5>Hello, World</h5>
@@ -20,11 +20,11 @@ const Banner = () => {
                     </p> 
                    <button className="actionBtn"><a href="#about">More About Me</a></button>
                 </div>
-                <ul class="intro-social">        
-                        <li><a href="https://github.com/sojib-bd/ema-john-simple"><GitHubIcon style={{fontSize: '30px'}}/></a></li>
-                        <li><a href="https://github.com/sojib-bd/ema-john-simple"><LinkedInIcon style={{fontSize: '30px'}}/></a></li>
-                        <li><a href="https://github.com/sojib-bd/ema-john-simple"><TwitterIcon style={{fontSize: '30px'}}/></a></li>
-                        <li><a href="https://github.com/sojib-bd/ema-john-simple"><FacebookIcon style={{fontSize: '30px'}}/></a></li>
+                <ul className="intro-social">        
+                        <li><a href="https://github.com/sojib-bd" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '30px'}} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/md-rahmatuzzaman-sojib-0791bb134/" target="_blank" rel="noopener noreferrer"><LinkedInIcon style={{fontSize: '30px'}}/></a></li>
+                        <li><a href="https://twitter.com/mdrahmatuzzaman" target="_blank" rel="noopener noreferrer"><TwitterIcon style={{fontSize: '30px'}}/></a></li>
+                        <li><a href="https://web.facebook.com/rahmatuzzaman" target="_blank" rel="noopener noreferrer"><FacebookIcon style={{fontSize: '30px'}}/></a></li>
          
                  </ul>
 

@@ -13,11 +13,15 @@
 }
 .part2 {
     display: grid;
-    grid-template-columns: 200px 500px;
+    grid-template-columns: 260px 500px;
     justify-content: center;
     align-items: center;
     margin: 50px;
     text-align: start;
+    margin:100px;
+}
+.part2 p {
+    margin-top: 20px;
 }
 
 .info-list {
@@ -40,7 +44,7 @@
 }
 
 .profile> ul> li {
-    margin-left: -45px;
+    margin-left: -40px;
 }
 
 .skills> ul> li {
@@ -81,12 +85,13 @@
     overflow: hidden;
   }
 
+  .resumeBtn {
+      padding: 100px;
+  }
+
   .resumeBtn  button {
-    background: #313131;
-    color: #FFFFFF; 
-    width: 250px;
-    padding: 10px;
-    margin: 50px
+   width: 250px;
+  
   }
 
   .resumeBtn button a {
@@ -108,6 +113,10 @@
     .skills {
         margin-left: 10px;
         text-align: center;
+    }
+    .skillList .meter {
+        width:50%;
+        margin-left: 150px;
     }
     #about {
        

@@ -12,7 +12,12 @@
 }
 
 .projectIntro {
-  margin: 70px
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.projectIntro h2 {
+  color: #cc005f
 }
 
 .projectIntro p {
@@ -25,29 +30,15 @@
 
  
   .projectBtn {
-    padding: 10px;
-    color: white;
-    background: #151515;
-    border-radius: 5px;
-    margin: 100px;
-    width: 250px;
+    padding: 100px
+    
   }
 
-@media screen and (max-width: 425px) {
-
-  .imageHolder {
-    display: block;
+  .projectBtn button {
+    width: 250px
   }
 
-  
-  .workContainer .projectIntro p {
-    width: 200px;
-    height: 100px;
-    overflow: scroll;
-  }
-  .workContainer button {
-    margin-left: 100px;
-  }
+@media screen and (max-width: 425px) {  
 
   .workContainer {
     width: 600px;
@@ -56,27 +47,3 @@
 }
 
 
-/* @media screen and (min-width:768px) {
-  .imageHolder {
-    display: block;
-  }
-
-  .imageContainer img {
-    
-    margin-bottom: 20px; 
-    margin-left: 100px;   
-  }
-  .imageHolder .imageContainer {
-    border: none;
-  }
-  .workContainer .projectIntro p {
-    width: 200px;
-    height: 100px;
-    overflow: scroll;
-  }
-  .workContainer button {
-    margin-left: 50px;
-  }
-  
-}
- */

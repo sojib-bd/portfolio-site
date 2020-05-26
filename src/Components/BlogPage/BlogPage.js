@@ -10,7 +10,7 @@ const BlogPage = () => {
 
 
     return (
-        <div class="blogContainer">
+        <div className="blogContainer">
             <Link to="/home">
                 <p className="homeLink">↩ Back To Home Page</p>
             </Link>

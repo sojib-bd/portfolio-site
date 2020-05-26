@@ -1,6 +1,7 @@
 import React from 'react';
 import profilePic from './Images/profile_pic.png';
-import './AboutPage.css'
+import './AboutPage.css';
+import { Button } from 'react-bootstrap';
 
 const AboutPage = () => {
     return (
@@ -11,14 +12,19 @@ const AboutPage = () => {
 
             </div>
             <div className="part2">
-                <img src={profilePic} alt="" width="150" Height="150" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, dolor, itaque repudiandae enim possimus reiciendis ipsum quas nemo totam aspernatur, aliquid cumque fugiat iusto harum eligendi eos earum quasi expedita!</p>
+                <img src={profilePic} alt="" width="200" height="200" />
+                <p>Electrical Engineer by certificate. | Passionate about programming.|
+                Start my journey with Web development.| completed 20+ projects.|
+                Have the ability to make <strong>e-commerce website</strong>, dynamic website,
+                 Medical website,Banking related website.| Expertise in<strong> JavaScript and React</strong>.|
+                 comfortable with <strong>node.js , Express.js ,Redux, MondoDB</strong>.
+                </p>
 
             </div>
             <div className="profileContainer">
                 <div className="profile">
-                    <h3>PROFILE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quo nisi ad doloremque, placeat accusamus iste qui quaerat necessitatibus, quis, eos consequatur? Eum repellat culpa commodi vitae odio eligendi maxime!</p>
+                    <h2>PROFILE</h2>
+
                     <ul className="info-list">
                         <li>
                             <strong>Full Name:</strong>
@@ -40,8 +46,7 @@ const AboutPage = () => {
                     </ul>
                 </div>
                 <div className="skills">
-                    <h3>SKILLS</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, esse fugiat! Quis perferendis debitis quas atque fugit perspiciatis quibusdam distinctio autem quam, similique voluptatum quo enim, sequi vel iure delectus?</p>
+                    <h2>SKILLS</h2>
 
                     <ul className="skillList">
                         <li>
@@ -74,7 +79,8 @@ const AboutPage = () => {
 
             </div>
             <div className="resumeBtn">
-                <button><a href="https://drive.google.com/open?id=1ut7_RK7dnJrN7vCF3bPxxRFZ1oiFwWnb">Download RESUME</a></button>
+
+                <Button variant="danger"><a href="https://drive.google.com/open?id=1ut7_RK7dnJrN7vCF3bPxxRFZ1oiFwWnb">DOWNLOAD CV</a></Button>
             </div>
         </div>
     );
