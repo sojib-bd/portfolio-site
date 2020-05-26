@@ -1,0 +1,118 @@
+.aboutContainer {
+    margin-top: 80px
+}
+/* 
+#about {
+    transition: 2s linear;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} */
+
+.aboutContainer h1 {
+    color :#cc005f
+}
+.part2 {
+    display: grid;
+    grid-template-columns: 200px 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    text-align: start;
+}
+
+.info-list {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.profileContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    
+}
+
+.profile, .skills {
+    text-align: start;
+}
+.profile {
+    margin-left: 80px;
+
+}
+
+.profile> ul> li {
+    margin-left: -45px;
+}
+
+.skills> ul> li {
+    margin-left: -40px;
+    
+}
+
+.skillList {
+    list-style-type: none;
+
+}
+
+.meter {
+    height: 10px;  /* Can be anything */
+    width: 500px;
+	position: relative;
+	background: rgb(211, 204, 204);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;	
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    margin-top: -10px
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(18, 19, 18);
+    
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .resumeBtn  button {
+    background: #313131;
+    color: #FFFFFF; 
+    width: 250px;
+    padding: 10px;
+    margin: 50px
+  }
+
+  .resumeBtn button a {
+      text-decoration: none;
+      color: white;
+  }
+
+  @media screen and (max-width: 425px){
+
+    .part2,.profileContainer {
+        display: block;
+        text-align: center;
+    }
+    .profile {
+        margin-left: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .skills {
+        margin-left: 10px;
+        text-align: center;
+    }
+    #about {
+       
+        
+        width: 600px
+    }
+  }
+  
