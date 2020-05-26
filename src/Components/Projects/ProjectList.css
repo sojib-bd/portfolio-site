@@ -1,0 +1,38 @@
+.projectInfo> ol{   
+    text-align: start;
+    border-left: 5px solid gold;
+}
+
+.projectInfo p {
+    text-align: start; 
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 450px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    background-color: black;
+    width: 500px
+}
+
+.project img {
+    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 425px) {
+
+    .project {
+        display: block;       
+        position: relative;
+        left: 80px;
+    }    
+    .project img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}

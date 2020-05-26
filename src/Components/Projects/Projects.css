@@ -1,0 +1,14 @@
+.pageTitle {
+    margin: 50px;
+}
+
+
+
+@media screen and (max-width:425px) {
+     .pageTitle {
+        position: relative;
+        left: 80px;
+        
+    }
+}
+
