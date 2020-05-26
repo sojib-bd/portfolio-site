@@ -1,13 +1,28 @@
 import React from 'react';
 import './App.css';
-import Banner from './Components/Banner/Banner';
-import AboutPage from './Components/AboutPage/AboutPage';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+
+} from "react-router-dom";
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <AboutPage />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/projects"></Route>
+          <Route path="/blog"></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

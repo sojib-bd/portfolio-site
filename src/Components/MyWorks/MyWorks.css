@@ -1,0 +1,82 @@
+.imageHolder {    
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    grid-gap: 40px;
+    
+}
+
+.workContainer {
+  background-color: #ebebeb;
+  padding: 50px;  
+}
+
+.projectIntro {
+  margin: 70px
+}
+
+.projectIntro p {
+  width: 500px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+ 
+  .projectBtn {
+    padding: 10px;
+    color: white;
+    background: #151515;
+    border-radius: 5px;
+    margin: 100px;
+    width: 250px;
+  }
+
+@media screen and (max-width: 425px) {
+
+  .imageHolder {
+    display: block;
+  }
+
+  
+  .workContainer .projectIntro p {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+  }
+  .workContainer button {
+    margin-left: 100px;
+  }
+
+  .workContainer {
+    width: 600px;
+  }
+  
+}
+
+
+/* @media screen and (min-width:768px) {
+  .imageHolder {
+    display: block;
+  }
+
+  .imageContainer img {
+    
+    margin-bottom: 20px; 
+    margin-left: 100px;   
+  }
+  .imageHolder .imageContainer {
+    border: none;
+  }
+  .workContainer .projectIntro p {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+  }
+  .workContainer button {
+    margin-left: 50px;
+  }
+  
+}
+ */

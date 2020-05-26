@@ -1,0 +1,35 @@
+
+.contactInfoContainer {  
+    background: #151515;
+    color: white;
+    padding: 20px;
+   
+   
+}
+
+
+.contactHolder {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px
+}
+
+.titleTag {
+    color: #cc005f
+}
+.addressDetail ,.phoneDetail ,.emailDetail {
+    color: gray;
+}
+
+@media screen and (max-width: 480px) {
+
+    .contactHolder {
+        display: block;
+       
+    }
+    
+
+    #contacts {
+        width:600px
+    }
+}
