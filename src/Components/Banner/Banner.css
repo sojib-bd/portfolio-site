@@ -1,0 +1,133 @@
+.banner {
+    width: 100%;
+    height: 100%;
+    background: #151515 url('./Images/intro-bg.jpg') no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+    position: relative;
+    text-align: center;
+    min-height: 720px;
+ }
+ 
+ .intro-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #111111;
+     opacity: .85;
+ }
+ 
+ /* .banner>.intro{
+     color: white;
+ } */
+ 
+ .intro {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateY(-2.1rem) 
+ }
+ 
+ .intro-social {
+     display: block;
+     position: absolute;
+     width: 100%;
+     left: 0;
+     bottom: 7.2rem;
+     font-size: 3.3rem;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .intro h5 {
+     color: #cc005f;
+     font-family: "poppins-bold", sans-serif;
+     font-size: 2.3rem;
+     line-height: 1.565;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     letter-spacing: .3rem;
+     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .intro h1 {
+     color: #FFFFFF;
+     font-family: 'Poppins', sans-serif;
+ font-family: 'Roboto', sans-serif;
+     /* font-size: 50px; */
+     line-height: 1.071;
+     max-width: 900px;
+     margin-top: 0;
+     margin-bottom: .6rem;
+     margin-left: auto;
+     margin-right: auto;
+     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+ }
+ .intro-position {
+     font-family: "lora-regular", serif;
+     /* font-size: 1.7rem; */
+     line-height: 2.4rem;
+     text-transform: uppercase;
+     letter-spacing: .2rem;
+     color: #FFFFFF;
+     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .actionBtn {
+     color: #FFFFFF;
+     border-color: rgba(255, 255, 255, 0.3);
+     height: 4rem ;   
+     padding: 0px 3.5rem 0px 3rem;
+     margin-top: .6rem;
+     /* font-size: 1.3rem; */
+     text-transform: uppercase;
+     /* letter-spacing: .25rem; */
+     background: transparent;
+     border: 3px solid #313131;
+ }
+ 
+ .actionBtn:hover {
+     border: 3px solid #cc005f;
+ }
+ 
+ .intro-social {
+     display: block;
+     position: absolute;
+     width: 100%;
+     left: 0;
+     bottom: 7.2rem;
+     font-size: 3.3rem;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .intro-social li {
+     display: inline-block;
+     margin-right: 20px;
+ }
+ 
+ .intro-social li a {
+     text-decoration: none;
+     color: #FFFFFF;
+     
+ }
+ 
+ .intro button a {
+     text-decoration: none;
+     color: #FFFFFF;
+     transition: 2s linear;
+ }
+ 
+ @media screen and (max-width: 425px) {
+     .banner {
+         width: 600px;
+         
+     }
+ }
+ 
+ 
+ 
+ 
