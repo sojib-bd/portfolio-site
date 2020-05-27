@@ -10,7 +10,7 @@ import ProjectCart from './ProjectCart';
 
 const MyWorks = () => {
     return (
-        <div className="workContainer">
+        <div className="workContainer" id="projects">
             <div className="projectIntro">
                 <h2>PORTFOLIO</h2>
                 <h5>CHECK OUT SOME OF MY PROJECTS</h5>

@@ -44,13 +44,11 @@
   }
 
 
-  @media screen and (max-width: 425px) {
+  /* @media screen and (max-width: 425px) {
     .imageContainer img {
         width: 100%;
         margin-bottom: 20px; 
           
       }
-      .imageHolder .imageContainer {
-        border: none;
-      }
-  }
+     
+  } */

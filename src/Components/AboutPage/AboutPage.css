@@ -99,11 +99,12 @@
       color: white;
   }
 
-  @media screen and (max-width: 425px){
+  @media screen and (max-width: 480px){
 
     .part2,.profileContainer {
         display: block;
         text-align: center;
+        justify-content: center;
     }
     .profile {
         margin-left: 10px;
@@ -116,12 +117,24 @@
     }
     .skillList .meter {
         width:50%;
-        margin-left: 150px;
+        margin-left: 100px;
     }
-    #about {
-       
-        
-        width: 600px
+
+    .resumeBtn {
+        padding:0;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
+
+    .part2 p {
+           
+           width: 300px;
+           text-align: center;
+           margin-left: -50px;
+    }
+    .part1  h1{
+       margin-left: 50px;
+    }
+    
   }
   

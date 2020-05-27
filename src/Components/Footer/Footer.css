@@ -14,15 +14,19 @@
     color: gray 
 }
 
-@media screen and (max-width:425px) {
-    .footerContainer {
-        width: 600px;
+@media screen and (max-width:480px) {
+    .footerContainer {       
         display: block;
         text-align: center;
     }
 
-    .social-link {
-        margin-left: -100px;
+    
+    .social-link ul{
+        text-align: start;
+       
+        width: 200px;
+        text-align: center;
+        margin-left:60px;
     }
 }
 

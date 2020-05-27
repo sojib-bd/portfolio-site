@@ -20,9 +20,7 @@
      opacity: .85;
  }
  
- /* .banner>.intro{
-     color: white;
- } */
+ 
  
  .intro {
     display: table-cell;
@@ -56,7 +54,7 @@
  .intro h1 {
      color: #FFFFFF;
      font-family: 'Poppins', sans-serif;
- font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
      /* font-size: 50px; */
      line-height: 1.071;
      max-width: 900px;
@@ -121,13 +119,38 @@
      transition: 2s linear;
  }
  
- @media screen and (max-width: 425px) {
-     .banner {
-         width: 600px;
-         
-     }
- }
- 
+@media only screen and (max-width:480px) {
+    .banner {
+        display: block;
+        min-height: 600px;
+        position: relative;
+    }
+
+    .intro {
+           display: block;
+          
+           position: absolute;
+           top: 50%;
+           transform: translateY(-80%);
+          
+    }
+
+    .intro h1 {
+        
+              
+        max-width: 900px;
+        margin-top: 0;
+        margin-bottom: .6rem;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+.banner {
+    min-height: 660px;
+    }
+}
+
  
  
  
