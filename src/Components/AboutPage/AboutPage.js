@@ -8,7 +8,8 @@ const AboutPage = () => {
         <div className="aboutContainer" id="about">
             <div className="part1">
                 <h1>ABOUT</h1>
-                <h3>Let Me Introduce Myself</h3>
+                <h3>Let Me Introduce
+                    Myself</h3>
 
             </div>
             <div className="part2">

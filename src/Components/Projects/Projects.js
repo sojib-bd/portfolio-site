@@ -16,6 +16,7 @@ const Projects = () => {
     return (
         <div>
             <Link to="/home"><p>↩ <strong>Back to HOME Page</strong></p></Link>
+
             <h2 className="pageTitle">RECENT PROJECTS</h2>
             <div className="projectController">
                 <ProjectList

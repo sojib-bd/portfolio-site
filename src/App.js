@@ -9,11 +9,13 @@ import {
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import BlogPage from './Components/BlogPage/BlogPage';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -23,9 +25,12 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+
           </Route>
           <Route path="/blog">
+
             <BlogPage />
+
           </Route>
         </Switch>
       </Router>

@@ -1,12 +1,7 @@
 .aboutContainer {
-    margin-top: 80px
+    margin-top: 80px 
 }
-/* 
-#about {
-    transition: 2s linear;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-} */
+
 
 .aboutContainer h1 {
     color :#cc005f
@@ -116,8 +111,8 @@
         text-align: center;
     }
     .skillList .meter {
-        width:50%;
-        margin-left: 100px;
+        width:70%;
+        margin-left: 50px;
     }
 
     .resumeBtn {
@@ -125,16 +120,18 @@
         margin-top: 100px;
         margin-bottom: 50px;
     }
+    
+    .part2 {
+        margin-left: 100px;
+    }
 
     .part2 p {
-           
-           width: 300px;
-           text-align: center;
-           margin-left: -50px;
-    }
-    .part1  h1{
-       margin-left: 50px;
-    }
+        
+        width: 200px
+    }  
+    .part1 {
+        margin-left: 50px;
+    }  
     
   }
   

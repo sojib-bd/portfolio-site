@@ -6,6 +6,7 @@ import image4 from './BlogImages/image4.png';
 import './BlogPage.css';
 import BlogPost from '../BlogPost/BlogPost';
 import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 const BlogPage = () => {
 
 
@@ -41,9 +42,9 @@ const BlogPage = () => {
                 link="https://medium.com/@sojibrahmatuzzaman/front-end-interview-preparation-react-interview-question-a77ae2bcc55e"
             />
 
-            <button className="blogBtn"><a href="https://medium.com/@sojibrahmatuzzaman"
-                target="_blank" rel="noopener noreferrer"
-            >READ MORE ARTICLES</a></button>
+            <Button variant="danger" ><a href="https://medium.com/@sojibrahmatuzzaman"
+                target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: 'none' }}
+            >READ MORE ARTICLES</a></Button>
 
             <Link to="/home">
                 <p className="homeLink2">↩ Back To Home Page</p>
