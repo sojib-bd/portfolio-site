@@ -81,7 +81,7 @@ const AboutPage = () => {
             </div>
             <div className="resumeBtn">
 
-                <Button variant="danger"><a href="https://drive.google.com/open?id=1ut7_RK7dnJrN7vCF3bPxxRFZ1oiFwWnb">DOWNLOAD CV</a></Button>
+                <Button variant="danger"><a href="https://drive.google.com/file/d/1JP70yxEpFfCOplAhauQ3JHRFGkN2YPWD/view?usp=sharing" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a></Button>
             </div>
         </div>
     );
